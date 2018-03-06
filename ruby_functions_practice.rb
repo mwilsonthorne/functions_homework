@@ -8,4 +8,8 @@ end
 
 def subtract(x, y)
   return x - y
-end 
+end
+
+def multiply(x, y)
+  return x * y
+end
