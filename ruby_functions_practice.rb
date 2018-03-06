@@ -17,3 +17,14 @@ end
 def divide(x, y)
   return x / y
 end
+
+def length_of_string(test_string)
+  test_string = "A string of length 21"
+  length_of_string = test_string.length
+end
+
+def join_string (x, y)
+  x = "Mary had a little lamb, "
+  y = "it's fleece was white as snow"
+  joined_string = x + y
+end
