@@ -1,5 +1,5 @@
 require( 'minitest/autorun' )
-require_relative( './ruby_functions_practice.rb' )
+require_relative( './ruby_functions_practice' )
 
 class Functions_Practice < MiniTest::Test
 
@@ -34,9 +34,10 @@ class Functions_Practice < MiniTest::Test
     assert_equal( 21, length_of_string )
   end
 
-  def test_join_string()
+ def test_join_string()
     string_1 = "Mary had a little lamb, "
-    string_2 = "it's fleece was white as snow"
+    string_2 =
+
     joined_string = join_string( string_1, string_2 )
     assert_equal( "Mary had a little lamb, it's fleece was white as snow", joined_string )
   end
